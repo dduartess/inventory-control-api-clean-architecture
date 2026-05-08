@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "InventoryControl.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/InventoryControl.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventoryControl.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "InventoryControl.Domain/1.0.0": {
+      "type": "project",
+      "path": "../InventoryControl.Domain/InventoryControl.Domain.csproj",
+      "msbuildProject": "../InventoryControl.Domain/InventoryControl.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "InventoryControl.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\danda\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\danda\\OneDrive\\Documentos\\Projetos\\Estudo\\inventory-control-api-clean-architecture\\InventoryControl.Application\\InventoryControl.Application.csproj",
+      "projectName": "InventoryControl.Application",
+      "projectPath": "C:\\Users\\danda\\OneDrive\\Documentos\\Projetos\\Estudo\\inventory-control-api-clean-architecture\\InventoryControl.Application\\InventoryControl.Application.csproj",
+      "packagesPath": "C:\\Users\\danda\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\danda\\OneDrive\\Documentos\\Projetos\\Estudo\\inventory-control-api-clean-architecture\\InventoryControl.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\danda\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\danda\\OneDrive\\Documentos\\Projetos\\Estudo\\inventory-control-api-clean-architecture\\InventoryControl.Domain\\InventoryControl.Domain.csproj": {
+              "projectPath": "C:\\Users\\danda\\OneDrive\\Documentos\\Projetos\\Estudo\\inventory-control-api-clean-architecture\\InventoryControl.Domain\\InventoryControl.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.420/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
