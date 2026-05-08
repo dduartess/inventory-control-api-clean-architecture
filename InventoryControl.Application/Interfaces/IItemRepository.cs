@@ -1,12 +1,16 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using InventoryControl.Domain.Entities;
 
-namespace InventoryControl.Application.Interfaces
+namespace InventoryControl.Application.Interfaces;
+
+public interface IItemRepository
 {
-    public class IItemRepository
-    {
-        
-    }
+    List<Item> GetAllItems();
+
+    Item? GetItemById(int id);
+
+    Item CreateItem(Item item);
+
+    bool UpdateItem(Item item);
+
+    bool DeleteItem(int id);
 }

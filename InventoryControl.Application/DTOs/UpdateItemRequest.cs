@@ -1,12 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+namespace InventoryControl.Application.DTOs;
 
-namespace InventoryControl.Application.DTOs
+public class UpdateItemRequest
 {
-    public class UpdateItemRequest
-    {
-        
-    }
+    public string Name { get; set; } = string.Empty;
+
+    public string Description { get; set; } = string.Empty;
+
+    public decimal Price { get; set; }
+
+    public int Quantity { get; set; }
 }
